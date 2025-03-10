@@ -1,0 +1,117 @@
+/* Đặt nền cho toàn trang */
+body {
+    background-color: #f8f0e3;
+    font-family: 'Arial', sans-serif;
+    color: #3e2723;
+    margin: 0;
+    padding: 0;
+}
+
+/* Định dạng header */
+header {
+    background-color: #5d4037;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #d7ccc8;
+}
+
+/* Định dạng các link */
+a {
+    color: #8d6e63;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5d4037;
+    text-decoration: underline;
+}
+
+/* Định dạng phần thông tin cá nhân */
+.profile {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    border: 4px solid #5d4037;
+}
+
+.profile h1 {
+    color: #5d4037;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.profile h2 {
+    color: #8d6e63;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Định dạng phần Về Tôi */
+.about {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.about h2 {
+    color: #5d4037;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+/* Định dạng các link trong phần Về Tôi */
+.about a {
+    display: block;
+    margin-top: 10px;
+    color: #5d4037;
+    font-weight: bold;
+}
+
+.about a:hover {
+    color: #3e2723;
+}
+
+/* Định dạng footer */
+footer {
+    background-color: #5d4037;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Căn giữa toàn bộ trang */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
