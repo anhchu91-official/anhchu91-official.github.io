@@ -1,56 +1,59 @@
-/* Styles.css */
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #000;
+    color: #fff;
 }
 
 .hero {
     position: relative;
-    text-align: center;
-    color: white;
-}
-
-.hero .banner {
-    width: 100%;
-    height: auto;
+    background: url('https://i.imgur.com/bc2lbw2.png') center/cover no-repeat;
+    height: 200px; /* Thu nhỏ banner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .logo {
+    width: 100px; /* Thu nhỏ logo */
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 120px;
-    height: auto;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 10px;
+    top: 10px;
+    left: 10px;
 }
 
 .navbar {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    border-radius: 10px;
+    top: 10px;
+    right: 10px;
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
 }
 
-.navbar ul li {
+.navbar li {
     display: inline;
-    margin: 0 10px;
 }
 
-.navbar ul li a {
-    color: white;
+.navbar a {
     text-decoration: none;
+    color: white;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.banner-section {
+    padding: 20px;
+}
+
+.banner {
+    width: 50%; /* Thu nhỏ banner hiển thị */
+    max-width: 600px;
 }
